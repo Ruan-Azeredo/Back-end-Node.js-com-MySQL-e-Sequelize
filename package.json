@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/Ruan-Azeredo/Back-end-Node.js-com-MySQL-e-Sequelize#readme",
   "dependencies": {
-    "espress": "0.0.0",
     "express": "^4.18.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.3"
