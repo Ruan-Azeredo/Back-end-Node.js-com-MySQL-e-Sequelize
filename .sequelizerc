@@ -1,0 +1,9 @@
+const path = require('path');
+
+module.exports = {
+    config: path.resolve(__dirname, 'src', 'config', 'config.json'),
+    //define caminho para banco de dados
+
+    'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations')
+    //define caminho onde deve ser criado a migration na aplicação
+}
