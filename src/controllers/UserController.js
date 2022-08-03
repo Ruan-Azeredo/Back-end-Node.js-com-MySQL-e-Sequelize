@@ -6,5 +6,9 @@ module.exports = {
         const user = await User.create({ name, email });
 
         return res.json(user);
+    },
+    async index(req, res) {
+        const index = await User.findAll();
+        return res.json(index);
     }
 }
